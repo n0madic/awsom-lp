@@ -7,11 +7,17 @@ Based on the research paper: *"AWSOM-LP: An Effective Log Parsing Technique Usin
 ## Features
 
 ✨ **Pattern Recognition**: Automatically groups similar log events using text similarity
+
 🔍 **Frequency Analysis**: Distinguishes static vs dynamic tokens using frequency analysis
+
 ⚙️ **Flexible Configuration**: Customizable similarity thresholds, sorting strategies, and regex patterns
+
 🚀 **High Performance**: Efficient parsing with benchmark tests showing ~2ms per parse operation
+
 📊 **Multiple Sorting Strategies**: Deterministic results with various event sorting options
+
 🧪 **Well Tested**: 93.8% test coverage with comprehensive unit and benchmark tests
+
 🖥️ **CLI Tool**: Ready-to-use command-line utility for parsing log files
 
 ## Installation
@@ -24,10 +30,8 @@ go get github.com/n0madic/awsom-lp
 ### CLI Tool
 ```bash
 # Install from source
-git clone https://github.com/n0madic/awsom-lp.git
-cd awsom-lp/cmd/awsom-lp
-go build -o awsom-lp
-./awsom-lp -h
+go install github.com/n0madic/awsom-lp/cmd/awsom-lp@latest
+awsom-lp -h
 ```
 
 ## Quick Start
